@@ -9,8 +9,6 @@ activate env
 
 
 
-
-
 Representational State Transfer Application Programming Interface
 : REST API :
 
@@ -64,6 +62,7 @@ note(eror : Object of type Student is not JSON serializable)
             raise serializers.ValidationError({'error':'id is more then 200'})
         return data
 
+- as semiler make all methods like update,get,post,and delete methods are created 
 
 
 
